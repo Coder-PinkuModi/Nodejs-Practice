@@ -1,0 +1,12 @@
+{
+  "name": "httpwork",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "main-index.js, logging details of request recieved in source.json and it's time and user-agent in log.txt"
+}

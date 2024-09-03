@@ -1,0 +1,12 @@
+{
+  "name": "1st",
+  "version": "1.0.0",
+  "description": "\"Just seeing how a package.json looks liks and also making own script in the object of script key in object of package.json\"",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node hello.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

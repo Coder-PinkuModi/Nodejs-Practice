@@ -1,0 +1,15 @@
+{
+  "name": "urll",
+  "version": "1.0.0",
+  "description": "\"Practicing url in http and learning more about it\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "url": "^0.11.3"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "routeswithoutexpresss",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "Express exploration, remember express is a framework which helps one to make things easy coding for http module,url,etc",
+    "dependencies": {
+        "express": "^4.19.2",
+        "url": "^0.11.3"
+    }
+}

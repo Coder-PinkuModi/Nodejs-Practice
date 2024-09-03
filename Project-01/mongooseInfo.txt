@@ -1,0 +1,10 @@
+# Okay so here in this file we are going to write that what are the basic needs to connect mongodb database to our project and then what can all be done
+
+1. install mongoose dependency:= npm i mongoose
+
+2. connect the database mongodb using mongoose and also write it in the database name, syntax: mongoose.connect("local_url_connection_to_dbs_of_mongoDB/dbs_name",)
+=>remember connecting mongoDB will return a promise so u have to handle it with handlers, i.e. err(must to print the error) and proceeding part if needed
+
+3. make a standard schema standard according to your need for the project
+
+4. create model using schema, syntax:const variable= mongoose.model('user',schema_name) // this user in quotes will be the collection name for the same database
